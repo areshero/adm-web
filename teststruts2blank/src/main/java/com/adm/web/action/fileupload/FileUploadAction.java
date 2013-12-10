@@ -1,4 +1,4 @@
-package com.adm.action.fileupload;
+package com.adm.web.action.fileupload;
 
 import com.opensymphony.xwork2.ActionSupport;
 

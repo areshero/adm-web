@@ -1,6 +1,6 @@
-package com.adm.action;
+package com.adm.web.action;
 
-public class HelloWorld extends ExampleSupport {
+public class HelloWorld extends BaseAction {
 
     public String execute() throws Exception {
         setMessage(getText(MESSAGE));

@@ -18,11 +18,24 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.adm.action;
+package com.adm.web.action;
+
+import com.adm.web.LoginSession;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**
  * Base Action class for the Tutorial package.
  */
-public class ExampleSupport extends ActionSupport {
+public class BaseAction extends ActionSupport {
+	public static final String LOGIN_FAIL = "login_fail";
+
+	public LoginSession getLoginSession() {
+		return loginSession;
+	}
+
+	public void setLoginSession(LoginSession loginSession) {
+		this.loginSession = loginSession;
+	}
+
+	private LoginSession loginSession;
 }

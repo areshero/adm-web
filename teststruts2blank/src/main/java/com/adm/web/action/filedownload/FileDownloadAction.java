@@ -1,4 +1,4 @@
-package com.adm.action.filedownload;
+package com.adm.web.action.filedownload;
 
 import com.opensymphony.xwork2.Action;
 import org.apache.struts2.ServletActionContext;
