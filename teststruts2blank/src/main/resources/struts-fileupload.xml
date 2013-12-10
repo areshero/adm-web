@@ -7,7 +7,7 @@
 	<package name="fileupload" extends="struts-default" namespace="/">
         
 
-        <action name="doUpload" class="com.adm.action.fileupload.FileUploadAction" method="upload">
+        <action name="doUpload" class="com.adm.web.action.fileupload.FileUploadAction" method="upload">
         	<result name="input">upload.jsp</result>
 			<result>/upload/upload-success.jsp</result>
 		</action>

@@ -8,7 +8,7 @@
 
         <default-action-ref name="download"/>
 
-        <action name="download" class="com.adm.action.filedownload.FileDownloadAction">
+        <action name="download" class="com.adm.web.action.filedownload.FileDownloadAction">
             <param name="inputPath">downloadpath="${downloadpath}"</param>
 			<result name="success" type="stream">
                 <param name="contentType">application/octet-stream</param>
